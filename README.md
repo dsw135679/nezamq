@@ -1,0 +1,2 @@
+# nezamq
+rust study project
