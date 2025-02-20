@@ -1,6 +1,13 @@
 [package]
-name = "base"
+name = "common-base"
 version.workspace = true
 edition.workspace = true
 
 [dependencies]
+log = {workspace = true}
+log4rs = {workspace = true}
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_yaml = {workspace = true}
+thiserror = {workspace = true}
+toml = {workspace = true}

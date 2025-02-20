@@ -1,7 +1,7 @@
 cluster_name = "placement-test"
 addr = "127.0.0.1"
-node_id = 1
-grpc_port = 8871
+node_id = 1                                         # 节点ID
+grpc_port = 8871                                    # 节点监听的 GRPC 端口
 http_port = 8971
 nodes = { 1 = "127.0.0.1:1228" }
 data_path = "/tmp/placement-center-geek/geek-local"
