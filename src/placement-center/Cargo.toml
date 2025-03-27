@@ -4,5 +4,26 @@ version = { workspace = true }
 edition = { workspace = true }
 
 [dependencies]
+common-base.workspace = true
+axum = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
+tokio = { workspace = true }
+log = { workspace = true }
+log4rs = { workspace = true }
+tokio-util = { workspace = true }
+tonic = { workspace = true }
+dashmap = { workspace = true }
+bincode = { workspace = true }
+prost = { workspace = true }
+openraft = { workspace = true }
+protocol.workspace = true
+rocksdb.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+slog = "2.7.0"
+slog-term = "2.9.1"
+slog-async = "2.8.0"
+thiserror.workspace = true
+mobc.workspace = true
+grpc-clients.workspace = true

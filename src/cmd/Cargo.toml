@@ -11,7 +11,9 @@ serde = { workspace = true }
 serde_json = { workspace = true }
 serde_yaml = "0.9.34"
 toml = "0.8.20"
-common-base.workspace=true
+common-base.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
 
 [[bin]]
 name = "placement-center"

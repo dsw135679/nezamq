@@ -1,0 +1,19 @@
+[package]
+name = "grpc-clients"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+mobc.workspace = true
+dashmap.workspace = true
+protocol.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+serde_json.workspace = true
+prost.workspace = true
+tonic.workspace = true
+axum.workspace = true
+bytes.workspace = true
+common-base.workspace = true
+regex.workspace = true
+
